@@ -121,20 +121,6 @@ img.onclick = function(){
     captionText:this.innerHTML = this.alt;
 }
 
-
-//EQUIPE
-//get modal
-var modal = document.getElementById("modalBotao");
-
-//pegar imagem e inserir modal - alt é legenda
-var btn = document.getElementById("equipe");
-btn.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText:this.innerHTML = this.alt;
-}
-
-
 //span fechar
 var span = document.getElementsByClassName("fechar6")[0];
 
