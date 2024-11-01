@@ -86,27 +86,15 @@ div.modal {
 }
 
 /*modal conteudo - imagem*/
-div.conteudo-modal {
+.modal-conteudo {
     margin: auto;
-    display: block;
+    display: list-item;
     width: 90%;
     max-width: 1000px;
 }
 
-/*modal caption*/
-div#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
 /*animação de zoom no modal*/
-div.conteudo-modal, div#caption {
+div.modal-conteudo {
     animation-name: zoom;
     animation-duration: 0.6s;
 }
@@ -117,7 +105,7 @@ div.conteudo-modal, div#caption {
 }
 
 /*botão fechar*/
-.fechar1, .fechar2, .fechar3, .fechar4, .fechar5, .fechar6 {
+.fechar1, .fechar2, .fechar3, .fechar4, .fechar5, .fechar6, .fechar7 {
     position: absolute;
     top: 15px;
     right: 35px;
@@ -137,7 +125,7 @@ div.conteudo-modal, div#caption {
 
 /*responsividade modal*/
 @media only screen and (max-width: 700px){
-    div.conteudo-modal {
+    div.modal-conteudo {
         width: 100%;
     }
 }
@@ -286,28 +274,19 @@ div.botao{
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-/*modal conteudo - imagem*/
-div.conteudo-modal {
-    margin: auto;
+div.modal-conteudo {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
     display: block;
     width: 90%;
     max-width: 1000px;
 }
 
-/*modal caption*/
-div#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
 
 /*animação de zoom no modal*/
-div.conteudo-modal, div#caption {
+div.modal-conteudo {
     animation-name: zoom;
     animation-duration: 0.6s;
 }
@@ -317,28 +296,11 @@ div.conteudo-modal, div#caption {
     to {transform:scale(1)}
 }
 
-/*botão fechar*/
-.fechar1, .fechar2, .fechar3, .fechar4, .fechar5, .fechar6 {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f5bace;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-    cursor: pointer;
-}
 
-.fechar:hover,
-.fechar:focus {
-    color: #fffafc;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 /*responsividade modal*/
 @media only screen and (max-width: 700px){
-    div.conteudo-modal {
+    div.modal-conteudo {
         width: 100%;
     }
 }
