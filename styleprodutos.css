@@ -99,6 +99,8 @@ div.modal-conteudo {
     animation-duration: 0.6s;
 }
 
+
+
 @keyframes zoom {
     from {transform:scale(0)}
     to {transform:scale(1)}
@@ -129,6 +131,7 @@ div.modal-conteudo {
         width: 100%;
     }
 }
+
 
 /* PRODUTOS */
 
@@ -258,23 +261,8 @@ div.botao{
 
 
   
-/*modal botao final*/ 
 
-  div.modalBotao {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.9);
-}
-
-div.modal-conteudo {
+/* div.modal-conteudo {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
@@ -282,13 +270,13 @@ div.modal-conteudo {
     display: block;
     width: 90%;
     max-width: 1000px;
-}
+} */
 
 
-/*animação de zoom no modal*/
-div.modal-conteudo {
-    animation-name: zoom;
-    animation-duration: 0.6s;
+
+
+.fim{
+    color: #ffffff;
 }
 
 @keyframes zoom {
@@ -298,9 +286,3 @@ div.modal-conteudo {
 
 
 
-/*responsividade modal*/
-@media only screen and (max-width: 700px){
-    div.modal-conteudo {
-        width: 100%;
-    }
-}
