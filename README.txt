@@ -7,7 +7,7 @@
 ## Equipe
    - Poliana Brito - Desenvolvimento da página de produtos e design do site
    - Flávia Sales - Desenvolvimento da página de contratação
-   - Enzo Luíz- Desenvolvimento da página inicial
+   - Enzo Luíz (Enzodev-710) - Desenvolvimento da página inicial
    - Jamille Souza - Design
    - Davi Araujo - Design
    - Jadiana Reis - Design
