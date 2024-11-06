@@ -4,7 +4,7 @@
 ## Proposta
 - Desenvolver um site básico para uma confeitaria fictícia.
 
-Estrutura do site
+# Estrutura do site
 - Página Inicial: Destaca a história e proposta da empresa (indexpi.html).
 - Produtos Oferecidos: Exposição e descrição de produtos oferecidos na empresa (produtos.html).
 - Trabalhe Conosco: Área de recrutamento com informações sobre vagas e formulário de inscrição (indextc.html).
